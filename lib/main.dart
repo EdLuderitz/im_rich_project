@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: Center(child: Text('Olá Mundo!'))));
+  // Meu primeiro código em flutter.
+  runApp(
+    MaterialApp(
+      home: Center(
+        child: Text('Olá Mundo!'),
+      ),
+    ),
+  );
 }
