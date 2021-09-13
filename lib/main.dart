@@ -4,8 +4,18 @@ void main() {
   // Meu primeiro código em flutter.
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Olá Mundo!'),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('Eu sou Rico'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+          ),
+        ),
       ),
     ),
   );
