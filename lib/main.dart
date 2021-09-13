@@ -14,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://raw.githubusercontent.com/polimorfismo/assets-curso-flutter-e-dart/main/imagens/rubi.png'),
+            image: AssetImage('images/rubi.png'),
           ),
         ),
       ),
